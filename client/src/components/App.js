@@ -15,10 +15,10 @@ const App = () => {
                 <div>
                     <Header />
                     <Route path="/" exact component={StreamList}/>
-                    <Route path="/new" exact component={StreamCreate}/>
-                    <Route path="/edit" exact component={StreamEdit}/>
-                    <Route path="/delete" exact component={StreamDelete}/>
-                    <Route path="/show" exact component={StreamShow}/>
+                    <Route path="/new" component={StreamCreate}/>
+                    <Route path="/edit" component={StreamEdit}/>
+                    <Route path="/delete" component={StreamDelete}/>
+                    <Route path="/show" component={StreamShow}/>
                 </div>
             </BrowserRouter>
         </div>
