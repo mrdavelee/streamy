@@ -1,2 +1,5 @@
 export const SIGN_IN = 'SIGN_IN'
 export const SIGN_OUT = 'SIGN_OUT'
+export const CREATE_STREAM = 'CREATE_STREAM'
+export const CREATE_DELETE = 'CREATE_DELETE'
+export const CREATE_EDIT = 'CREATE_EDIT'
